@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main -  whether it is less than 6, greater than 5 or 0.
+ * main - print the last digit of the number stored in the variable
  *
  * Return: Always 0 (Success)
  */
