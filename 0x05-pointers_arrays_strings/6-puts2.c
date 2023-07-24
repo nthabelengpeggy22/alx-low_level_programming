@@ -9,20 +9,20 @@
 void puts2(char *str)
 {
 	int longi = 0;
-	int r = o;
-	char *v = str;
+	int t = 0;
+	char *y = str;
 	int o;
 
-	while (*v != '\0')
+	while (*y != '\0')
 	{
-		v++;
+		y++;
 		longi++;
 	}
-	r = longi = !;
-	for 
-		(o = 0; o <= r; o++);
+	t = longi - l;
+
+	for (o = 0; o <= t ; o++)
 	{
-		if (o % 2 == o)
+		if (o % 2 == 0)
 		{
 			_putchar(str[o]);
 		}
