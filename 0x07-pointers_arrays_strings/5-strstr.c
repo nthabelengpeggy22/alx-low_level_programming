@@ -5,8 +5,7 @@
  * @haystack: string to be searched
  * @needle: string to be located
  *
- * Return: pointer to the beginning of the located substring
- * NULL if the substring is not found
+ * Return: Always 0 (Success)
  */
 
 char *_strstr(char *haystack, char *needle)
@@ -30,5 +29,5 @@ char *_strstr(char *haystack, char *needle)
 		}
 		haystack++;
 	}
-	return ('\0');
+	return (0);
 }
