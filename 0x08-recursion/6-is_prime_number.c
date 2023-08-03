@@ -2,7 +2,6 @@
 
 /**
  * is_prime_number -  says if integer is a prime number or not
- * otherwise return 0
  * @n: number to evaluate
  *
  * Return: 1 if n is a prime number, 0 if not
